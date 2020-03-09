@@ -1,6 +1,63 @@
+html {
+    background-color: rgb(65, 65, 65);
+    background-color: whitesmoke;
+}
+
+body {
+    max-width: 990px;
+    position: relative;
+    margin: auto;
+}
+
 h1 {
+position: absolute;
+top: 275px;
+left:225px;
 font-family: cooper-black-std, serif;
 font-weight: 400;
 font-style: normal;
-font-size: 100px;
+font-size: 60px;
+line-height: 80px;
+color: rgb(38, 167, 226);
+margin: auto;
 }
+
+h2 {
+    display: inline-block;
+    position: absolute;
+    top: 255px;
+    left: 590px;
+    margin: auto;
+    color: white;
+}
+
+/* locked in above this line */
+
+p {
+    width: 400px;
+    margin: 25pt;
+    font-size: 20px;
+    float: left;
+}
+article {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 700 px;
+}
+img.body {
+    float: right;
+}
+article:target {
+   visibility: visible;
+}
+
+footer {
+    position: absolute;
+    left: -150px;
+    top: 175px;
+    transform: rotate(-90deg);
+    color: gray;
+}
+
